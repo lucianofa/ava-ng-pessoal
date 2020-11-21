@@ -1,0 +1,20 @@
+<H2>Repositórios GitHub</H2>
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Language</th>
+        <th>Commits</th>
+      </tr>
+    </thead>
+  <tbody>
+    <tr *ngFor="let repo of meusRepos">
+      <td>{{ meusRepos.name }}</td>  
+      <td>{{ meusRepos.language }}</td>
+      <td>{{ meusRepos.commits }}</td>
+      <td>teste</td>
+    </tr>
+  </tbody>
+</table>
+{{ meusRepos.language }}
