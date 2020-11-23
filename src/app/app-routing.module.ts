@@ -8,7 +8,7 @@ import { ReposComponent } from './personal/repos/repos.component';
 
 const routes: Routes = [
 
-  { path: '', component: InicioComponent },
+  { path: '/', component: InicioComponent },
   { path: 'inicio', component: InicioComponent },
   { path: 'repos', component: ReposComponent },
   { path: 'contact', component: ContactComponent },
