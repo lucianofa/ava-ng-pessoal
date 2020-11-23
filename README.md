@@ -8,8 +8,8 @@
 
   - Todo código deve estar no GitHub (https://github.com/lucianofa/ava-ng-pessoal)
   - Criar 3 componentes interagindo na mesma página e com rotas (inicio, respos, contact e pagina-nao-encontrada)
-  - Escolher 4 componentes do Angular Material para incormporar a aplicação (MatToolbar, MatIcon, MatFormField, MatButton, ...)
-  - Criar em uma das páginas uma interação através da Interpolação e/ou utilizando Property Binding (a tabela de Repositórios foi feita com Iterpolação e Property Binding no ícone)
+  - Escolher 4 componentes do Angular Material para incorporar a aplicação (MatToolbar, MatIcon, MatFormField, MatButton, ...)
+  - Criar em uma das páginas uma interação através da Interpolação e/ou utilizando Property Binding (a tabela de Repositórios foi feita com Interpolação e Property Binding no ícone)
   - Criar uma explicação sobre o que foi feito, esta explicação será inserida na plataforma da DIO junto com o link para o código no GitHub (especifiquei na plataforma da DIO que a explicação detalhada estaria aqui no GitHub no README.MD)
   - Opcionalmente criar um vídeo demonstrativo da aplicação contruída, e publicá-lo no YouTube, passando o link de acesso na plataforma (Vou providenciar)
 
