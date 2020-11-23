@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ### Criar uma aplicação Angular considerando contendo: 
-##### (a aplicação criada é um racunho de uma página pessoal)
+##### (a aplicação criada é um rascunho de uma página pessoal)
 
   - Todo código deve estar no GitHub (https://github.com/lucianofa/ava-ng-pessoal)
   - Criar 3 componentes interagindo na mesma página e com rotas (inicio, respos, contact e pagina-nao-encontrada)
