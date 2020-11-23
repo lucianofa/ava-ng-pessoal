@@ -1,20 +1,25 @@
-<H2>Repositórios GitHub</H2>
+<div class="container">
+<h1>Repositórios do GitHub <span class="fa fa-github"></span></h1>
+
+<h2>{{nomeDesenvolvedor}}</h2>
 
 <table class="table table-striped">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Language</th>
+        <th>Nome</th>
+        <th>Linguagem</th>
         <th>Commits</th>
+        <th>Logo</th>
       </tr>
     </thead>
   <tbody>
     <tr *ngFor="let repo of meusRepos">
-      <td>{{ meusRepos.name }}</td>  
-      <td>{{ meusRepos.language }}</td>
-      <td>{{ meusRepos.commits }}</td>
-      <td>teste</td>
+      <td>{{ repo.nome }}</td>  
+      <td>{{ repo.linguagem }}</td>  
+      <td>{{ repo.commits }}</td>
+      <td><img [src]="repo.fotoUrl" width="30" height="30" ></td>
     </tr>
   </tbody>
 </table>
-{{ meusRepos.language }}
+</div>
+

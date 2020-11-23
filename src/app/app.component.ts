@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Página pessoal de: José Luciano de Faria';
-  name: string = 'Luciano'
 }

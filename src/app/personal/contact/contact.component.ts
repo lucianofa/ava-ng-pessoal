@@ -12,4 +12,8 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  mensagemEmail() {
+    alert('Função de envio de e-mail ainda não foi implementada!');
+  }
+
 }

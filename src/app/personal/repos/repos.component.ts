@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Repositories } from './repos.class'
 
+
 @Component({
   selector: 'repos-component',
   templateUrl: './repos.component.html',
@@ -8,25 +9,29 @@ import { Repositories } from './repos.class'
 })
 export class ReposComponent implements OnInit {
 
-  meusRepos: Repositories[] = []; 
-  
-  //constructor() {   }
+  constructor() {   }
 
+  meusRepos: Repositories[] = [
+    
+      {
+        nome: 'Avanade Angular SPA',
+        linguagem: 'Javascript/Angular',
+        commits: 0,
+        fotoUrl: './assets/images/angular_icon_130993.png'
+      },
+      {
+        nome: 'DIO Angular',
+        linguagem: 'Javascript/Angular',
+        commits: 0,
+        fotoUrl: './assets/images/angular_icon_130993.png'
+      }
+  ];
+ 
+  
   ngOnInit(): void {
 
-   this.meusRepos = [
-     {
-       name: 'Avanade Angular SPA',
-       language: 'Angular',
-       commits: 0,  
-     },
-     {
-       name: 'DIO Angular',
-       language: 'Angular',
-       commits: 0,  
-     }
-   ]   
-
+  
   }
 
+  nomeDesenvolvedor: string = 'Luciano Faria'
 }

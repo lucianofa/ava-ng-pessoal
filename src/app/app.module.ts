@@ -13,13 +13,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //import { InicioComponent } from './personal/inicio/inicio.component';
 import { ReposComponent } from './personal/repos/repos.component';
 import { ContactComponent } from './personal/contact/contact.component';
+import { InicioComponent } from './personal/inicio/inicio.component';
+import { PaginaNaoEncontradaComponent } from './personal/pagina-nao-encontrada/pagina-nao-encontrada.component';
 
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
     ReposComponent,
     ContactComponent,
+    InicioComponent,
+    PaginaNaoEncontradaComponent,
 
   ],
   imports: [
@@ -28,7 +35,11 @@ import { ContactComponent } from './personal/contact/contact.component';
     FormsModule,
     MatToolbarModule,
     MatIconModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

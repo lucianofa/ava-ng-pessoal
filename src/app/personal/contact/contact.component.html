@@ -1,9 +1,23 @@
-<p>contact works!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
-<br/>
+<div class="container">
+    <div class="titulo">
+        <mat-label>Contato</mat-label>
+    </div>
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label>Digite seu nome:</mat-label>
+            <input matInput placeholder="Ex: recrutador" value="Camila - Avanade">
+        </mat-form-field>
 
-{{ name }}
-<br/>
+        <mat-form-field class="example-full-width">
+            <mat-label>Escreva o assunto no campo abaixo:</mat-label>
+            <textarea matInput placeholder="Ex: gostaria de agendar uma entrevista..."></textarea>
+        </mat-form-field>
+    </form>
+    <section>
+        <div class="example-button-row">
+            <button (click)="mensagemEmail()" mat-raised-button color="primary">Enviar</button>
+        </div>
+    </section>
 
-<input [(ngModel)]="name" name="name" >
 
-<h1>Mercadoria</h1>
+</div>

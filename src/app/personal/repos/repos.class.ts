@@ -1,5 +1,6 @@
 export class Repositories {
-  name: string;
-  language: string;
-  commits: number;
+    nome: string;
+    linguagem: string;
+    commits: number;
+    fotoUrl: string;
 }
